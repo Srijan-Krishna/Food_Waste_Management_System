@@ -5,7 +5,7 @@ const dotEnv = require('dotenv');
 dotEnv.config()
 
 
-const secretKey='Ankit'
+const secretKey='Srijan'
 const verifyToken = async(req, res, next) => {
     const token = req.headers.token;
 
